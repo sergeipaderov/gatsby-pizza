@@ -1,0 +1,75 @@
+@import './variables';
+
+.wrap{
+    width: 100%;
+    margin: 0;
+    background: $black;
+    .info{
+        padding: 30px 30px 20px;
+        // @include media-breakpoint-up(xl){
+        // 	width: calc(100% - 35%);
+        // 	padding: 2% 5% 2% 12%;
+        // }
+        // @include media-breakpoint-down(sm){
+        // 	width: 100%;
+        // }
+        // p{
+        // 	margin-bottom: 0;
+        // }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 20px;
+
+                p {
+                    text-align: start;
+                }
+            }
+    }
+    .social{
+        width: 100%;
+        // width: 35%
+        padding: 26px;
+        background: $primary;
+        // @include media-breakpoint-down(sm){
+        // 	width: 100%;
+        // }
+        .social-icon{
+            margin: 0;
+            padding: 0 30px;
+            display: flex;
+            li{
+                list-style: none;
+                display: inline-block;
+                line-height: 0;
+                padding: 0 6px;
+                // a{
+                    display: block;
+                    margin: 0;
+                    .social-icons{
+                        color: $white;
+                        font-size: 24px;
+                    }
+                // }
+            }
+        }
+    }
+    h3{
+        font-size: 16px;
+    }
+    .text{
+        width: calc(100% - 40px);
+    }
+    .icon{
+        width: 40px;
+        color: $primary;
+        font-size: 20px;
+        align-items: flex-start;
+        
+        svg {
+            vertical-align: top;
+        }
+    }
+}

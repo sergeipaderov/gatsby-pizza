@@ -1,0 +1,192 @@
+@import './variables';
+
+.item-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .text-item {
+        display: flex;;
+        order: 1;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+
+        .subheading {
+            font-family: $font-tertiary;
+            font-size: 30px;
+            color: $primary;
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-size: 40px;
+            color: $white;
+            line-height: 1.5;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 300;
+            color: rgba(255,255,255,1);
+            text-align: end;;
+        }
+
+        .main-button{
+            background: #fac564;
+            border: 1px solid #fac564;
+            color: #000;
+            font-size: 13px;
+            border-radius: 1px;
+            padding: 16px 24px;
+            margin: 2px 3px 2px;
+        }
+
+        .secondary-button {
+            border-color: rgba(255, 255, 255, 0.8);
+            background: none;
+            border-width: 1px;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 1px;
+            padding: 16px 24px;
+            margin: 2px 2px 2px 3px;
+        }
+    }
+
+    .img-item {
+        display: flex;
+        order: 2;
+        align-items: center;
+    }
+}
+
+// ----------------------------------------------------------
+
+.item-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .text-item_inverted {
+        display: flex;;
+        order: 2;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+        .subheading {
+            font-family: $font-tertiary;
+            font-size: 30px;
+            color: $primary;
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-size: 40px;
+            color: $white;
+            line-height: 1.5;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 300;
+            color: rgba(255,255,255,1);
+            text-align: start;
+        }
+
+        .main-button{
+            background: #fac564;
+            border: 1px solid #fac564;
+            color: #000;
+            font-size: 13px;
+            border-radius: 1px;
+            padding: 16px 24px;
+            margin: 2px 3px 2px;
+        }
+
+        .secondary-button {
+            border-color: rgba(255, 255, 255, 0.8);
+            background: none;
+            border-width: 1px;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 1px;
+            padding: 16px 24px;
+            margin: 2px 2px 2px 3px;
+        }
+    }
+
+    .img-item_iverted {
+        display: flex;
+        order: 1;
+        align-items: center;
+    }
+}
+
+// ---------------------------------------------------------
+
+.item-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+    .text-item_tird {
+        display: flex;;
+        order: 2;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .subheading {
+            font-family: $font-tertiary;
+            font-size: 30px;
+            color: $primary;
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-size: 40px;
+            color: $white;
+            line-height: 1.5;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 300;
+            color: rgba(255,255,255,1);
+            text-align: start;
+        }
+
+        .main-button{
+            background: #fac564;
+            border: 1px solid #fac564;
+            color: #000;
+            font-size: 13px;
+            border-radius: 1px;
+            padding: 16px 24px;
+            margin: 2px 3px 2px;
+        }
+
+        .secondary-button {
+            border-color: rgba(255, 255, 255, 0.8);
+            background: none;
+            border-width: 1px;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 1px;
+            padding: 16px 24px;
+            margin: 2px 2px 2px 3px;
+        }
+    }
+}
