@@ -14,32 +14,26 @@ const IndexPage = () => (
     <Layout pageInfo={{ pageName: 'index' }}>
       <SEO title="Home" keywords={['gatsby', 'react', 'bootstrap']} />
       <div className="text-center">
-        <Row className="justify-content-center">
-          <Col md="12">
+        <Row className="justify-content-center no-gutters">
+          <Col>
             <section>
-              <Row className="justify-content-center">
-                <Col md="12">
-                  <section>
-                    <ControlledCarousel />
-                  </section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <ControlledCarousel />
                 </Col>
               </Row>
             </section>
             <section>
-              <Row className="justify-content-center">
-                <Col md="12">
-                  <section>
-                    <ContactInfo />
-                  </section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <ContactInfo />
                 </Col>
               </Row>
             </section>
             <section>
-              <Row className="justify-content-center">
-                <Col md="12">
-                  <section>
-                    <About />
-                  </section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <About />
                 </Col>
               </Row>
             </section>
