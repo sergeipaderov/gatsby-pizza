@@ -8,6 +8,7 @@ import SEO from '../components/seo';
 import ControlledCarousel from '../components/controlledCarousel/controlledCarousel';
 import ContactInfo from '../components/contactInfo';
 import About from '../components/about';
+import ServicesBlock from '../components/servicesBlock';
 
 const IndexPage = () => (
   <>
@@ -34,6 +35,13 @@ const IndexPage = () => (
               <Row className="justify-content-center no-gutters">
                 <Col>
                   <About />
+                </Col>
+              </Row>
+            </section>
+            <section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <ServicesBlock />
                 </Col>
               </Row>
             </section>
