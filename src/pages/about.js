@@ -6,6 +6,8 @@ import {
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import FirstSection from '../components/firstSection';
+import ContactInfo from '../components/contactInfo';
+import About from '../components/about';
 
 const Menu = () => (
   <Layout pageInfo={{ pageName: 'about' }}>
@@ -15,6 +17,20 @@ const Menu = () => (
         <Col>
           <section>
             <FirstSection title="About" buttonName="About" linkPath="about" />
+          </section>
+          <section>
+            <Row className="justify-content-center no-gutters">
+              <Col>
+                <ContactInfo />
+              </Col>
+            </Row>
+          </section>
+          <section>
+            <Row className="justify-content-center no-gutters">
+              <Col>
+                <About />
+              </Col>
+            </Row>
           </section>
         </Col>
       </Row>
