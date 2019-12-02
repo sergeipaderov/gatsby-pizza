@@ -32,7 +32,7 @@ const MenuBlock = () => (
 
       />
       <MenuItem
-        itemImage="../../images/pizza-3.jpg"
+        itemImage="../../images/pizza-4.jpg"
         itemTitle="Caucasian Pizza"
         itemText="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
         itemPrice="2.90"
@@ -53,7 +53,7 @@ const MenuBlock = () => (
           reversed
         />
         <MenuItem
-          itemImage="../../images/pizza-6.jpg"
+          itemImage="../../images/pizza-1.jpg"
           itemTitle="Margherita"
           itemText="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
           itemPrice="2.90"

@@ -10,6 +10,7 @@ import ContactInfo from '../components/contactInfo';
 import About from '../components/about';
 import ServicesBlock from '../components/servicesBlock';
 import MenuBlock from '../components/menuBlock/menuBlock';
+import PricingBlock from '../components/pricingBlock/pricingBlock';
 
 const IndexPage = () => (
   <>
@@ -50,6 +51,13 @@ const IndexPage = () => (
               <Row className="justify-content-center no-gutters">
                 <Col>
                   <MenuBlock />
+                </Col>
+              </Row>
+            </section>
+            <section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <PricingBlock />
                 </Col>
               </Row>
             </section>

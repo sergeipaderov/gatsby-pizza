@@ -7,6 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import FirstSection from '../components/firstSection';
 import MenuBlock from '../components/menuBlock/menuBlock';
+import PricingBlock from '../components/pricingBlock/pricingBlock';
 
 const Menu = () => (
   <Layout pageInfo={{ pageName: 'menu' }}>
@@ -25,6 +26,13 @@ const Menu = () => (
             <Row className="justify-content-center no-gutters">
               <Col>
                 <MenuBlock />
+              </Col>
+            </Row>
+          </section>
+          <section>
+            <Row className="justify-content-center no-gutters">
+              <Col>
+                <PricingBlock />
               </Col>
             </Row>
           </section>
