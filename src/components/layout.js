@@ -27,7 +27,7 @@ const Layout = ({ children, pageInfo }) => (
     `}
     render={(data) => (
       <>
-        <div fluid className="px-0 main">
+        <div fluid="true" className="px-0 main">
           <Row noGutters className="justify-content-center">
             <Col>
               <Header siteTitle={data.site.siteMetadata.title} />
@@ -41,7 +41,7 @@ const Layout = ({ children, pageInfo }) => (
             </Col>
           </Row>
         </div>
-        <div fluid className="px-0">
+        <div fluid="true" className="px-0">
           <Row noGutters>
             <Col className="footer-col">
               <footer>

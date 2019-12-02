@@ -1,0 +1,71 @@
+@import './variables';
+
+.ftco-section {
+    padding: 7em 0;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    .menu-description {
+        padding: 0 2em;
+    }
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+
+        &.reversed {
+
+            .card-img {
+            order: 2 !important;
+            }
+
+            .menu-info {
+                order: 1 !important;
+            }
+        }
+
+    .menu-title {
+    font-size: 20px;
+    text-align: start !important;
+    }
+
+    .menu-text {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        text-align: start;
+    }
+
+    .menu-footer {
+        display: flex;
+        padding: 0;
+        align-items: center;
+
+
+    }
+
+    .menu-price {
+        color: #fac564 !important;
+        margin-right: 12px;      
+    }
+
+    .menu-block-button {
+        border-color: #fff;
+        background: none;
+        border-width: 1px;
+        color: #fff;
+        font-size: 13px;
+    }
+}
+
+
+
+
+    
+    
+

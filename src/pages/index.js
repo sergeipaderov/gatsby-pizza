@@ -9,6 +9,7 @@ import ControlledCarousel from '../components/controlledCarousel/controlledCarou
 import ContactInfo from '../components/contactInfo';
 import About from '../components/about';
 import ServicesBlock from '../components/servicesBlock';
+import MenuBlock from '../components/menuBlock/menuBlock';
 
 const IndexPage = () => (
   <>
@@ -42,6 +43,13 @@ const IndexPage = () => (
               <Row className="justify-content-center no-gutters">
                 <Col>
                   <ServicesBlock />
+                </Col>
+              </Row>
+            </section>
+            <section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <MenuBlock />
                 </Col>
               </Row>
             </section>
