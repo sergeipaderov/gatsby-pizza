@@ -9,8 +9,8 @@ import '../../styles/menuBlock.scss';
 const MenuBlock = () => (
   <div className="ftco-section ftco-section">
     {/* <Container className="container"> */}
-    <Row className="justify-content-center mb-5 pb-3">
-      <Col md={7} className="md-7 heading-section ftco-animate text-center">
+    <Row style={{margin: 0}} className="justify-content-center mb-5 pb-3">
+      <Col md={7} className="heading-section ftco-animate text-center">
         <h2 className="mb-4">Hot Pizza Meals</h2>
         <p className="menu-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
       </Col>
