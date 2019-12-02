@@ -20,7 +20,7 @@ const ServicesBlock = () => (
         </Col>
       </Row>
       <Row>
-        <Col xs={12} mb={2} className="md-4 ftco-animate service-item">
+        <Col lg={4} xs={12} className="md-4 ftco-animate service-item">
           <div className="media d-block text-center block-6 services">
             <div className="icon d-flex justify-content-center align-items-center mb-5">
               <GiFruitBowl className="services-icon" />
@@ -31,7 +31,7 @@ const ServicesBlock = () => (
             </div>
           </div>
         </Col>
-        <Col xs={12} mb={2} className="md-4 ftco-animate service-item">
+        <Col lg={4} xs={12} className="md-4 ftco-animate service-item">
           <div className="media d-block text-center block-6 services">
             <div className="icon d-flex justify-content-center align-items-center mb-5">
               <IoMdBicycle className="services-icon" />
@@ -42,7 +42,7 @@ const ServicesBlock = () => (
             </div>
           </div>
         </Col>
-        <Col xs={12} className="md-4 ftco-animate service-item">
+        <Col lg={4} xs={12} className="md-4 ftco-animate service-item">
           <div className="media d-block text-center block-6 services">
             <div className="icon d-flex justify-content-center align-items-center mb-5">
               <FaPizzaSlice className="services-icon" />
