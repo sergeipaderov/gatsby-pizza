@@ -1,8 +1,11 @@
 .ftco-services{
 	background: url("../../public/images/food.png") repeat;
 	color: darken($primary,50%);
-	padding: 7em 0;
 	position: relative;
+
+	&.ftco-services {
+		padding: 7em 0;
+	}
 	
 	.overlay{
 		position: absolute;
@@ -32,6 +35,10 @@
 	.services-icon {
 		width: 60px;
 		height: 60px;
+	}
+
+	.service-item {
+		padding-bottom: 20px;
 	}
 }
 .services{
