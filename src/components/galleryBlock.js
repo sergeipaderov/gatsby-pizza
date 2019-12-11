@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import {
-  Row, Col, Container, Overlay,
+  Row, Col, Overlay,
 } from 'react-bootstrap';
 
 import { FaSearch } from 'react-icons/fa';

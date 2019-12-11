@@ -1,0 +1,156 @@
+@import './variables';
+
+.parallax{
+	position: relative;
+    z-index: 0;
+    height: 390px;
+    
+    @media only screen and (max-width : $lg){
+        height: 600px !important;
+        background-position: center center !important;
+    }
+
+    @media only screen and (max-width : $md){
+        height: 960px !important;
+        background-position: center center !important;
+    }
+
+	.bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: $black;
+        opacity: .8;
+
+        @media only screen and (max-width : $lg){
+            height: 600px !important;
+        }
+
+        @media only screen and (max-width : $md){
+            height: 960px !important;
+        }
+    }
+
+    .counter-wrapper {
+        height: 390px;
+
+        @media only screen and (max-width : $lg){
+            height: 600px !important;
+        }
+
+        @media only screen and (max-width : $md){
+            height: 960px !important;
+            background-position: center center !important;
+        }
+
+        .counter-content {
+
+            @media only screen and (max-width : $lg){
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    
+    .counter-column {
+        height: 390px;
+        align-items: center;
+
+        @media only screen and (max-width : $lg){
+            height: 180px;
+        }
+
+        @media only screen and (max-width : $md){
+            margin-bottom: 40px;
+        }
+
+        &:first-child {
+
+            @media only screen and (max-width : $lg){
+                margin-bottom: 40px;
+            }
+            @media only screen and (max-width : $md){
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+.ftco-counter {
+	// padding: 7em 0;
+	// @include media-breakpoint-down(lg){
+	// 	background-position: center center !important;
+	// }
+	.icon{
+		width: 80px;
+		height: 80px;
+		margin: 0 auto;
+		position: relative;
+		margin-bottom: 20px;
+		z-index: 0;
+		&:after{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			content: '';
+			bordeR: 1px solid $primary;
+			z-index: -1;
+			transition: .3s;
+		}
+		.counter-icon{
+            width: 40px;
+            height: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			right: 0;
+			transform: translateY(-50%) translatex(-50%);
+            color: $primary;
+            font-weight: 300;
+		}
+	}
+	.text{
+		strong.number{
+            display: flex;
+            flex-direction: column;
+			font-weight: 400;
+			font-size: 30px;
+			color: $primary;
+		}
+		span{
+			font-weight: 400;
+			font-size: 14px;
+			// color: rgba(0,0,0,.7);
+		}
+		&:hover, &:focus{
+			.icon{
+				.counter-icon{
+					color: $black;
+				}
+				&:after{
+					transform: rotate(135deg);
+					background: $primary;
+				}
+			}
+		}
+	}
+	// .counter-wrap{
+	// 	@include media-breakpoint-down(md){
+	// 		margin-bottom: 40px !important;
+	// 	}
+	// }
+	.ftco-number {
+		display: block;
+		color: $white;
+	}
+	.ftco-label {
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+    }
+}
