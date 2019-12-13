@@ -17,11 +17,40 @@
     flex-direction: row;
     background: rgba(0, 0, 0, 0.2);
     position: relative;
+    height: 100%;
+    border: none;
+
+    .menu-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .wrapper-img {
+        width: 50%;
+        // overflow: hidden;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: center center;
+        // background-color: white;
+    }
+
 
         &.reversed {
 
-            .card-img {
+            .wrapper-img {
             order: 2 !important;
+
+                .card-img{
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-color: white;
+                }
             }
 
             .menu-info {

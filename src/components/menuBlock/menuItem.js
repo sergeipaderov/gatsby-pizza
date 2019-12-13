@@ -15,8 +15,14 @@ const MenuItem = (props) => {
   return (
     <Col lg={4}>
       <Card className={`menu-item ${reversed ? 'reversed' : ''}`}>
-        <Link className="card-img" to="/">
-          <Card.Img style={{ height: '240px', width: '240px', overflow: 'hidden', backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundColor: 'white' }} src={itemImage} />
+        <Link className="wrapper-img" to="/">
+          <Card.Img
+            className="card-img"
+            style={{
+              background: itemImage, height: 'auto', width: '100%', overflow: 'hidden', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundColor: 'white',
+            }}
+            src={itemImage}
+          />
         </Link>
         <Card.Body className="menu-info">
           <Card.Title className="menu-title">{itemTitle}</Card.Title>
