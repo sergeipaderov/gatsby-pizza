@@ -24,7 +24,7 @@ const ServicesBlock = () => (
             <Col md={6} lg={3} className="counter-column d-flex justify-content-center counter-wrap ftco-animate">
               <div className="block-18 text-center">
                 <div className="text">
-                  <div className="icon"><FaPizzaSlice outlined className="counter-icon" /></div>
+                  <div className="icon"><FaPizzaSlice className="counter-icon" /></div>
                   <strong className="number" data-number="100">100</strong>
                   <span>Pizza Branches</span>
                 </div>
@@ -51,7 +51,7 @@ const ServicesBlock = () => (
             <Col md={6} lg={3} className="counter-column d-flex justify-content-center counter-wrap ftco-animate">
               <div className="block-18 text-center">
                 <div className="text">
-                  <div className="icon"><GiChefToque Outlined className="counter-icon" /></div>
+                  <div className="icon"><GiChefToque className="counter-icon" /></div>
                   <strong className="number" data-number="900">900</strong>
                   <span>Staff</span>
                 </div>

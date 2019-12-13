@@ -1,0 +1,153 @@
+@import "variables";
+
+.menu-tabs {
+	border: none;
+	padding: 48px;
+	width: 100%;
+
+	@media only screen and (max-width : $md){
+		padding: 0 0 48px;
+	}
+
+	.nav-item.nav-link {
+		border-radius: 0;
+		margin-bottom: 0;
+		color: $primary !important;
+		font-size: 18px;
+		font-weight: 400;
+		position: relative;
+		display: inline-block;
+		bordeR: 1px solid $primary;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding: 8px 16px;
+		margin-bottom: 5px;
+
+		@media only screen and (max-width : $md){
+			width: 100%;
+		}
+
+		&.active {
+			color: black !important;
+			transition: all 0.3s ease;
+			background: #fac564;
+			border: 1px solid transparent;
+
+			@media only screen and (max-width : $md){
+				width: 100%;
+			}
+		}
+	}	
+}
+
+.menu-tab {
+	display: flex;
+
+	@media only screen and (max-width : $md){
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.ftco-menu{
+	position: relative;
+	width: 100%;
+	display: block;
+
+	.f-menu-img {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.nav-pills{
+		p{
+			margin-bottom: 0;
+		}
+		.nav-link{
+			border-radius: 0;
+			margin-bottom: 0;
+			color: $primary;
+			font-size: 18px;
+			font-weight: 400;
+			position: relative;
+			display: inline-block;
+			bordeR: 1px solid $primary;
+			margin-left: 5px;
+			margin-right: 5px;
+			&.active, &:hover{
+				color: darken($primary, 70%);
+				@include transition(.3s);
+				background: $primary;
+				border: 1px solid transparent;
+				&:after{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.menu-food-item {
+	min-height: 534px !important;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+	background-color: transparent;
+	align-items: center;
+	padding: 0 10px;
+	border: none;
+
+	@media only screen and (max-width : $md){
+		min-height: 430px !important;
+	}
+
+	.img-wrapper{
+
+		.card-img {
+			width: 200px;
+			height: 200px;
+			@include border-radius(50%);
+		}
+	}
+
+    .menu-title {
+    font-size: 20px;
+    }
+
+    .menu-text {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+    }
+
+    .menu-footer {
+		display: flex;
+		flex-direction: column;
+        padding: 0;
+        align-items: center;
+
+
+    }
+
+    .menu-price {
+        color: #fac564 !important;
+		margin-right: 12px;
+		margin-bottom: 1rem;   
+    }
+
+    .menu-block-button {
+        border-color: #fff;
+        background: none;
+        border-width: 1px;
+        color: #fff;
+        font-size: 13px;
+    }
+}
+
+
+
+
+    
+    
+
