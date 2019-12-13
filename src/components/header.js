@@ -18,10 +18,12 @@ const Header = ({ siteTitle, pageInfo }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  pageInfo: PropTypes.string,
 };
 
 Header.defaultProps = {
   siteTitle: '',
+  pageInfo: '',
 };
 
 export default Header;
