@@ -4,6 +4,8 @@ import {
 } from 'react-bootstrap';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
+import { MdChat } from 'react-icons/md';
+
 
 import '../../styles/blog.scss';
 
@@ -22,7 +24,7 @@ const ItemBlog = (props) => {
             <div><Link to="/">{member}</Link></div>
             <div>
               <Link to="/" className="meta-chat">
-                <span className="icon-chat" />
+                <MdChat />
                 {' '}
                 {comments}
               </Link>
