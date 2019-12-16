@@ -93,3 +93,61 @@ export const pasta = [
     id: 12,
   },
 ];
+
+export const blogPosts = [
+  {
+    title: 'The Delicious Pizza',
+    text: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: 'Sept 10, 2018',
+    cover: '../../images/image_1.jpg',
+    member: 'admin',
+    comments: 3,
+    id: 1,
+  },
+  {
+    title: 'The Delicious Pizza',
+    text: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: 'Sept 10, 2018',
+    cover: '../../images/image_2.jpg',
+    member: 'admin',
+    comments: 3,
+    id: 2,
+  },
+  {
+    title: 'The Delicious Pizza',
+    text: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: 'Sept 10, 2018',
+    cover: '../../images/image_3.jpg',
+    member: 'admin',
+    comments: 3,
+    id: 3,
+  },
+  {
+    title: 'The Delicious Pizza',
+    text: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: 'Sept 10, 2018',
+    cover: '../../images/image_4.jpg',
+    member: 'admin',
+    comments: 3,
+    id: 4,
+  },
+  {
+    title: 'The Delicious Pizza',
+    text: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: 'Sept 10, 2018',
+    cover: '../../images/image_5.jpg',
+    member: 'admin',
+    comments: 3,
+    id: 5,
+  },
+  {
+    title: 'The Delicious Pizza',
+    text: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.',
+    date: 'Sept 10, 2018',
+    cover: '../../images/image_6.jpg',
+    member: 'admin',
+    comments: 3,
+    id: 6,
+  },
+
+];

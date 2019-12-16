@@ -89,7 +89,6 @@
 }
 
 .menu-food-item {
-	min-height: 534px !important;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -103,12 +102,28 @@
 	}
 
 	.img-wrapper{
+		max-height: 164px;
 
 		.card-img {
-			width: 200px;
-			height: 200px;
+			max-height: 164px;
+			width: auto;
+			// width: 200px;
+			// height: 200px;
 			@include border-radius(50%);
+			@media only screen and (max-width : $md){
+				max-height: 164px;
+				max-width: 164px;
+				margin-bottom: 40px;
+			}
 		}
+	}
+
+	.menu-info {
+		padding-left: 0;
+		padding-right: 0;
+		display: flex;
+    	flex-direction: column;
+		justify-content: space-between;
 	}
 
     .menu-title {
@@ -117,7 +132,6 @@
 
     .menu-text {
         margin-top: 0;
-        margin-bottom: 1rem;
         box-sizing: border-box;
     }
 

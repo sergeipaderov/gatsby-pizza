@@ -14,6 +14,7 @@ import PricingBlock from '../components/pricingBlock/pricingBlock';
 import GalleryBlock from '../components/galleryBlock';
 import CounterBlock from '../components/counterBlock';
 import FoodMenu from '../components/foodMenu/foodMenu';
+import Blog from '../components/blogBlock/blog';
 
 const IndexPage = () => (
   <>
@@ -82,6 +83,13 @@ const IndexPage = () => (
               <Row className="justify-content-center no-gutters">
                 <Col>
                   <FoodMenu />
+                </Col>
+              </Row>
+            </section>
+            <section>
+              <Row className="justify-content-center no-gutters">
+                <Col>
+                  <Blog />
                 </Col>
               </Row>
             </section>

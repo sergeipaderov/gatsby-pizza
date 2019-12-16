@@ -14,8 +14,8 @@ const FoodMenu = () => (
 
   <div className="ftco-menu">
     <Row style={{ margin: 0 }}>
-      <Col lg={4} className="ftco-animate img f-menu-img mb-5 mb-md-0" style={{ backgroundImage: 'url("images/about.jpg")' }} />
-      <Col lg={8} className="ftco-animate">
+      <Col lg={4} className="ftco-anim img f-menu-img" style={{ backgroundImage: 'url("images/about.jpg")' }} />
+      <Col lg={8} className="ftco-anim">
         <Row style={{ margin: 0 }}>
           <Row style={{ margin: 0 }}>
             <Tabs className="menu-tabs" defaultActiveKey="pizza" id="uncontrolled-tab-example">
