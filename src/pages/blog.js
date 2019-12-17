@@ -6,6 +6,7 @@ import {
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import FirstSection from '../components/firstSection';
+import PaginatedBlog from '../components/blogBlock/paginatedBlog';
 
 
 const Menu = () => (
@@ -17,11 +18,13 @@ const Menu = () => (
           <section>
             <FirstSection title="Read Our Blog" buttonName="BLog" linkPath="blog" />
           </section>
+          <section>
+            <PaginatedBlog />
+          </section>
         </Col>
       </Row>
     </div>
   </Layout>
 );
 
-export default Menu
-;
+export default Menu;
