@@ -65,7 +65,6 @@
 			a {
 				color: $primary !important;
 				text-align: center;
-				// display: inline-block;
 				width: 40px;
 				height: 40px;
 				line-height: 24px;
@@ -74,6 +73,12 @@
 				background: transparent;
 				padding-bottom: 8px;
 				user-select: none;
+
+				span {
+					color: $primary;
+					font-size: 22px;
+					text-align: center;
+				}
 
 				&:hover {
 					color: #fff !important;
