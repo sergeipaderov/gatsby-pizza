@@ -24,18 +24,18 @@ const Info = () => (
         <a href="tel://1234567920">+ 1235 2355 98</a>
       </p>
     </Col>
-    <div className="col-md-12 mb-3">
+    <Col md={12} className="mb-3">
       <p>
         <span>Email:</span>
         <a href="mailto:info@yoursite.com">info@yoursite.com</a>
       </p>
-    </div>
-    <div className="col-md-12 mb-3">
+    </Col>
+    <Col md={12} className="mb-3">
       <p>
         <span>Website:</span>
         <Link to="/">yoursite.com</Link>
       </p>
-    </div>
+    </Col>
   </Row>
 );
 
