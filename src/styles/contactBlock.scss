@@ -18,11 +18,6 @@
 
 	.map-wrapper {
 		overflow: hidden;
-		max-height: 562px;
-
-		@media only screen and (max-width : $md){
-			max-height: 520px ;
-		}
 	}
 }
 
