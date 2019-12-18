@@ -4,6 +4,8 @@
 	width: 100%;
 	position: relative;
 	background: $black;
+	overflow: hidden;
+
 	.overlay{
 		position: absolute;
 		top: 0;
@@ -15,8 +17,12 @@
 	}
 
 	.map-wrapper {
-		max-height: 555px;
 		overflow: hidden;
+		max-height: 562px;
+
+		@media only screen and (max-width : $md){
+			max-height: 520px ;
+		}
 	}
 }
 

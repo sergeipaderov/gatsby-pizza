@@ -6,6 +6,7 @@ import {
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import FirstSection from '../components/firstSection';
+import InfoBlock from '../components/infoBlock/infoBlock';
 
 const Menu = () => (
   <Layout pageInfo={{ pageName: 'contact' }}>
@@ -16,11 +17,13 @@ const Menu = () => (
           <section>
             <FirstSection title="Contact Us" buttonName="Contact" linkPath="contact" />
           </section>
+          <section>
+            <InfoBlock />
+          </section>
         </Col>
       </Row>
     </div>
   </Layout>
 );
 
-export default Menu
-;
+export default Menu;
