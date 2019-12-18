@@ -13,6 +13,11 @@
 		background: $primary;
 		opacity: 0;
 	}
+
+	.map-wrapper {
+		max-height: 555px;
+		overflow: hidden;
+	}
 }
 
 .appointment{

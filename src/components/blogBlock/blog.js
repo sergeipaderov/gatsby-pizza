@@ -14,7 +14,7 @@ const blogList = blogPosts.slice(0, 3);
 
 const Blog = () => (
 
-  <div className="ftco-section">
+  <div className="ftco-section pb-5 mb-5">
     <Container>
       <Row className="justify-content-center mb-5 pb-3">
         <Col md={7} className="heading-section ftco-animate text-center">
