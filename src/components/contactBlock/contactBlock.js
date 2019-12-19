@@ -14,7 +14,7 @@ const ContactBlock = () => (
     <Overlay />
     <div className="container-wrap">
       <Row className="no-gutters d-md-flex align-items-center">
-        <Col md={6} className="d-flex align-self-stretch map-wrapper">
+        <Col md={6} className="map-wrapper d-flex align-self-stretch map-wrapper">
           <SimpleMap />
         </Col>
         <Col md={6} className="appointment ftco-animate">
