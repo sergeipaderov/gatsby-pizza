@@ -158,3 +158,34 @@ export const blogPosts = [
   },
 
 ];
+
+export const staff = [
+  {
+    name: 'Tom Smith',
+    position: 'Hair Specialist',
+    description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+    photo: '../../images/person_1.jpg',
+    id: 1,
+  },
+  {
+    name: 'Mark Wilson',
+    position: 'Beard Specialist',
+    description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+    photo: '../../images/person_2.jpg',
+    id: 2,
+  },
+  {
+    name: 'Patrick Jacobson',
+    position: 'Hair Stylist',
+    description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+    photo: '../../images/person_3.jpg',
+    id: 3,
+  },
+  {
+    name: 'Ivan Dorchsner',
+    position: 'Beard Specialist',
+    description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+    photo: '../../images/person_4.jpg',
+    id: 4,
+  },
+];

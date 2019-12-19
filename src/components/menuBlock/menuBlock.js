@@ -10,6 +10,8 @@ import {
 
 import '../../styles/menuBlock.scss';
 
+const pizzaList = pizza.slice(0, 3);
+
 const MenuBlock = () => (
   <div className="ftco-section ftco-section">
     <Row style={{ margin: 0 }} className="justify-content-center mb-5 pb-3">
@@ -19,7 +21,7 @@ const MenuBlock = () => (
       </Col>
     </Row>
     <Row className="no-gutters d-flex">
-      {pizza.map((item) => (
+      {pizzaList.map((item) => (
         <MenuItem
           key={item.id}
           itemImage={item.cover}
@@ -29,7 +31,7 @@ const MenuBlock = () => (
         />
       ))}
       <Row className="row no-gutters d-flex">
-        {pizza.map((item) => (
+        {pizzaList.map((item) => (
           <MenuItem
             reversed
             key={item.id}

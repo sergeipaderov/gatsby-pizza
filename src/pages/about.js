@@ -10,6 +10,7 @@ import ContactInfo from '../components/contactInfo';
 import About from '../components/about';
 import CounterBlock from '../components/counterBlock';
 import ContactBlock from '../components/contactBlock/contactBlock';
+import StaffBlock from '../components/staffBlock/staffBlock';
 
 const Menu = () => (
   <Layout pageInfo={{ pageName: 'about' }}>
@@ -31,6 +32,13 @@ const Menu = () => (
             <Row className="justify-content-center no-gutters">
               <Col>
                 <About />
+              </Col>
+            </Row>
+          </section>
+          <section>
+            <Row className="justify-content-center no-gutters">
+              <Col>
+                <StaffBlock />
               </Col>
             </Row>
           </section>
