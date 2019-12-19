@@ -10,6 +10,8 @@ import {
 
 import '../../styles/foodMenu.scss';
 
+const pizzaList = pizza.slice(0, 3);
+
 const FoodMenu = () => (
 
   <div className="ftco-menu">
@@ -21,8 +23,9 @@ const FoodMenu = () => (
             <Tabs className="menu-tabs" defaultActiveKey="pizza" id="uncontrolled-tab-example">
               <Tab eventKey="pizza" title="Pizza">
                 <div className="menu-tab">
-                  {pizza.map((item) => (
+                  {pizzaList.map((item) => (
                     <FoodMenuItem
+                      md={4}
                       key={item.id}
                       itemImage={item.cover}
                       itemTitle={item.title}

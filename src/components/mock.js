@@ -20,6 +20,13 @@ export const pizza = [
     cover: '../../images/pizza-4.jpg',
     id: 3,
   },
+  {
+    title: 'Italian Pizza',
+    description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+    price: '12.90',
+    cover: '../../images/pizza-1.jpg',
+    id: 4,
+  },
 ];
 
 export const drinks = [

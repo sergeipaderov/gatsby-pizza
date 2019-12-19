@@ -9,11 +9,11 @@ import '../../styles/foodMenu.scss';
 
 const FoodMenuItem = (props) => {
   const {
-    itemImage, itemTitle, itemText, itemPrice,
+    itemImage, itemTitle, itemText, itemPrice, md,
   } = props;
 
   return (
-    <Col md={4} xs={12}>
+    <Col md={md} xs={12} className="mb-5">
       <Card className="menu-food-item">
         <div className="img-wrapper">
           <Link className="card-img" to="/">
@@ -44,6 +44,7 @@ FoodMenuItem.defaultProps = {
   itemTitle: '',
   itemText: '',
   itemPrice: '',
+  md: 4,
 };
 
 FoodMenuItem.propTypes = {
@@ -51,6 +52,7 @@ FoodMenuItem.propTypes = {
   itemTitle: PropTypes.string,
   itemText: PropTypes.string,
   itemPrice: PropTypes.string,
+  md: PropTypes.number,
 };
 
 export default FoodMenuItem;
